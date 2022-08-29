@@ -18,6 +18,7 @@ int main(int argc, char const *argv[])
     ptr[0] = 63;
     ptr[0] = 73;
     ptr[0] = 33;
+    printf("what is your name buddy?")
     free(ptr); // now our pointer is a dangling pointer.
     // case 2:Function returning local variable that is not accessible in the ongoing function/main function
     int *dangptr = functionDangling(); // now our pointer has become a dangling pointer.
