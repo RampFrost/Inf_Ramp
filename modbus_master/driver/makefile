@@ -1,0 +1,5 @@
+MODBUS_DRIVER := $(SRCS_PATH)driver/
+
+INCLUDES += -I$(MODBUS_DRIVER)
+
+SRCS += $(MODBUS_DRIVER)modbus_lib.c
